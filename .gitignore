@@ -1,0 +1,8 @@
+.bundle
+db/*.sqlite3
+log/
+tmp/
+vendor/gems/
+public/stylesheets/*.css
+schema.rb
+.DS_Store

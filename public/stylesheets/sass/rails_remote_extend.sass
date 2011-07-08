@@ -1,0 +1,21 @@
+form[data-remote-extend]
+  .message_placeholder
+    :display none
+    :margin-bottom 10px
+  .message_placeholder.success, .message_placeholder.error
+    :border 1px solid
+    :width 300px
+    :padding 10px
+    
+  .message_placeholder.success
+    :border-color green
+    > p
+      :color green
+      
+  .message_placeholder.error
+    :border-color red
+    > p
+      :color red
+      
+  .field_error_message
+    :color red

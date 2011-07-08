@@ -1,0 +1,4 @@
+= form_tag "/things", :remote => true, 'data-remote-extend' => true, :id => "my_form" do
+  = text_field_tag "thing[name]", nil
+  %br
+  = submit_tag "save"
